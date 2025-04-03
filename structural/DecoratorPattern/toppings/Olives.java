@@ -2,7 +2,7 @@ package structural.DecoratorPattern.toppings;
 
 import structural.DecoratorPattern.pizza.BasePizza;
 
-public class Olives extends Toppings {
+public class Olives implements Toppings {
     private BasePizza pizza;
 
     public Olives(BasePizza pizza) {
