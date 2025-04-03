@@ -1,4 +1,4 @@
-package StrategyPattern.strategy;
+package StrategyPattern.WithStrategy.strategy;
 
 public interface FlooringStrategy {
     void floor();

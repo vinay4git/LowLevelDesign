@@ -1,6 +1,6 @@
-package StrategyPattern.strategy;
+package StrategyPattern.WithStrategy.strategy;
 
-public class MarbleStrategy implements FlooringStrategy{
+public class MarbleStrategy implements FlooringStrategy {
     @Override
     public void floor() {
         // Marble Strategy

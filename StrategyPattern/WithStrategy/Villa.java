@@ -1,6 +1,7 @@
-package StrategyPattern;
+package StrategyPattern.WithStrategy;
 
-import StrategyPattern.strategy.FlooringStrategy;
+
+import StrategyPattern.WithStrategy.strategy.FlooringStrategy;
 
 public class Villa  {
     FlooringStrategy flooringStrategy;
