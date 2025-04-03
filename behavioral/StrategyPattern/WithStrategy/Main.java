@@ -1,4 +1,4 @@
-package StrategyPattern.WithStrategy;
+package behavioral.StrategyPattern.WithStrategy;
 
 public class Main {
     public static void main(String[] args) {

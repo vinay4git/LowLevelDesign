@@ -1,4 +1,4 @@
-package StrategyPattern.WithStrategy.strategy;
+package behavioral.StrategyPattern.WithStrategy.strategy;
 
 public class TileStrategy implements FlooringStrategy {
     @Override

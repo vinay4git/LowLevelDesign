@@ -1,7 +1,7 @@
-package StrategyPattern.WithStrategy;
+package behavioral.StrategyPattern.WithStrategy;
 
 
-import StrategyPattern.WithStrategy.strategy.FlooringStrategy;
+import behavioral.StrategyPattern.WithStrategy.strategy.FlooringStrategy;
 
 public class Villa  {
     FlooringStrategy flooringStrategy;

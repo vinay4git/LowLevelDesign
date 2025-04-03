@@ -1,7 +1,6 @@
-package StrategyPattern.WithoutStrategy;
+package behavioral.StrategyPattern.WithoutStrategy;
 
-public class LuxuryVilla extends Villa {
-
+public class PremiumVilla extends Villa {
     @Override
     void doFlooring() {
         System.out.println("Marble flooring");

@@ -1,4 +1,4 @@
-package StrategyPattern.WithoutStrategy;
+package behavioral.StrategyPattern.WithoutStrategy;
 
 public class Villa {
     void doFlooring() {
