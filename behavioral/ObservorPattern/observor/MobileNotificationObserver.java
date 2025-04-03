@@ -10,6 +10,7 @@ public class MobileNotificationObserver implements NotificationAlertObserver{
     public MobileNotificationObserver(Integer mobileNbr, StockObservable stockObservable) {
         this.mobileNbr = mobileNbr;
         this.stockObservable = stockObservable;
+        stockObservable.add(this);
     }
 
     @Override

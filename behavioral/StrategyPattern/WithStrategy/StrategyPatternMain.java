@@ -1,6 +1,6 @@
 package behavioral.StrategyPattern.WithStrategy;
 
-public class Main {
+public class StrategyPatternMain {
     public static void main(String[] args) {
 
         Villa villa = new BudgetVilla();
