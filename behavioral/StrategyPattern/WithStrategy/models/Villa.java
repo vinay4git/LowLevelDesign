@@ -1,4 +1,4 @@
-package behavioral.StrategyPattern.WithStrategy;
+package behavioral.StrategyPattern.WithStrategy.models;
 
 
 import behavioral.StrategyPattern.WithStrategy.strategy.FlooringStrategy;
@@ -9,7 +9,7 @@ public class Villa  {
         this.flooringStrategy = flooringStrategy;
     }
 
-    void doFlooring() {
+    public void doFlooring() {
         flooringStrategy.floor();
     }
 }

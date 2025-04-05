@@ -1,4 +1,4 @@
-package behavioral.StrategyPattern.WithStrategy;
+package behavioral.StrategyPattern.WithStrategy.models;
 
 import behavioral.StrategyPattern.WithStrategy.strategy.MarbleStrategy;
 
