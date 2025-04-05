@@ -42,7 +42,7 @@ public class Game {
             boolean positioneCaptured = board.addPiece(row, column, currentPlayer.getPlayerPiece());
 
             if (!positioneCaptured) {
-                System.out.println(" Enter Valid coordinates with , separated: ");
+                System.out.println(" Enter Valid coordinates with , separated");
                 continue;
             }
 
