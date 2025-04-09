@@ -2,7 +2,7 @@ package DesignPatterns.creational.FactoryPattern.factory;
 
 import DesignPatterns.creational.FactoryPattern.models.Button;
 
-public abstract class Render {
+public abstract class RenderButton {
 
     protected abstract Button createButton();
 

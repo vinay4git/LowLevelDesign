@@ -1,23 +1,23 @@
 package DesignPatterns.creational.FactoryPattern;
 
-import DesignPatterns.creational.FactoryPattern.factory.MacRender;
-import DesignPatterns.creational.FactoryPattern.factory.Render;
-import DesignPatterns.creational.FactoryPattern.factory.WindowsRender;
+import DesignPatterns.creational.FactoryPattern.factory.MacRenderButton;
+import DesignPatterns.creational.FactoryPattern.factory.RenderButton;
+import DesignPatterns.creational.FactoryPattern.factory.WindowsRenderButton;
 
 public class FactoryMain {
     public static void main(String[] args) {
         // Some setting or input to decide the configuration of the OS
         String os = "MAC";
-        Render render;
+        RenderButton renderButton;
 
         if (os.equalsIgnoreCase("WINDOWS")) {
-            render = new WindowsRender();
+            renderButton = new WindowsRenderButton();
         } else if (os.equalsIgnoreCase("MAC")) {
-            render = new MacRender();
+            renderButton = new MacRenderButton();
         } else {
             return;
         }
 
-        render.render();
+        renderButton.render();
     }
 }

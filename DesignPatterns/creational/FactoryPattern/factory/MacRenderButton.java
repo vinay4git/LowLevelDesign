@@ -1,11 +1,11 @@
 package DesignPatterns.creational.FactoryPattern.factory;
 
 import DesignPatterns.creational.FactoryPattern.models.Button;
-import DesignPatterns.creational.FactoryPattern.models.WindowsButton;
+import DesignPatterns.creational.FactoryPattern.models.MacButton;
 
-public class WindowsRender extends Render {
+public class MacRenderButton extends RenderButton {
     @Override
     public Button createButton() {
-        return new WindowsButton();
+        return new MacButton();
     }
 }
