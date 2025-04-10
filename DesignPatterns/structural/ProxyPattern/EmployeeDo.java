@@ -1,6 +1,6 @@
 package DesignPatterns.structural.ProxyPattern;
 
-public class Employee {
+public class EmployeeDo {
     String id;
     String name;
 }

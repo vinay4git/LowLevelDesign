@@ -8,7 +8,7 @@ public class EmployeeDaoProxy implements EmployeeDao{
     }
 
     @Override
-    public Employee getEmployee(UserType userType,String id) {
+    public EmployeeDo getEmployee(UserType userType, String id) {
         if (userType.equals(UserType.ADMIN) || userType.equals(UserType.USER)) {
             employeeDaoImpl.getEmployee(userType, id);
         } else {
@@ -18,9 +18,9 @@ public class EmployeeDaoProxy implements EmployeeDao{
     }
 
     @Override
-    public void updateEmployee(UserType userType,String id, Employee employee) {
+    public void updateEmployee(UserType userType,String id, EmployeeDo employeeDo) {
         if (userType.equals(UserType.ADMIN)) {
-            employeeDaoImpl.updateEmployee(userType, id, employee);
+            employeeDaoImpl.updateEmployee(userType, id, employeeDo);
         } else {
             System.out.println("Operation Access denied");
         }
