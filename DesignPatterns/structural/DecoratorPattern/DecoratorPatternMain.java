@@ -19,7 +19,11 @@ public class DecoratorPatternMain {
         System.out.println("Cost: 100");
         System.out.println("Toppings: Cheese, Olives, Extra Cheese");
         System.out.println("Total Cost: 100 + 20 + 10 + 30");
-        BasePizza vegOverLoadedWithToppings = new ExtraCheese(new Olives(new Cheese(new VegOverloaded())));
+
+        BasePizza basePizza = new VegOverloaded();
+        BasePizza cheseToppings = new Cheese(basePizza);
+        BasePizza oliveToppings = new Olives(cheseToppings);
+        BasePizza vegOverLoadedWithToppings = new ExtraCheese(oliveToppings);
 
         System.out.println("Total Cost: " + vegOverLoadedWithToppings.cost());
     }
