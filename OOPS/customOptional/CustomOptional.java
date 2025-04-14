@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.customOptional;
 
 import java.util.Objects;
 import java.util.function.Function;
@@ -17,10 +17,11 @@ public class CustomOptional <T> {
         return obj == null ? (CustomOptional<T>) EMPTY : new CustomOptional<>(obj);
     }
 
+    @SuppressWarnings("unchecked")
     public <P> CustomOptional<P> map(Function<? super T, ? extends P> mapper) {
         Objects.requireNonNull(mapper);
         if (isEmpty()) {
-            return empty();
+            return (CustomOptional<P>) empty();
         } else {
             return CustomOptional.ofNullable(mapper.apply(value));
         }
@@ -30,9 +31,8 @@ public class CustomOptional <T> {
         return value == null;
     }
 
-    @SuppressWarnings("unchecked")
-    public <K> CustomOptional<K> empty() {
-        return (CustomOptional<K>) EMPTY;
+    public CustomOptional<?> empty() {
+        return EMPTY;
     }
 
     public T orElseGet(Supplier<? extends T> supplier) {
