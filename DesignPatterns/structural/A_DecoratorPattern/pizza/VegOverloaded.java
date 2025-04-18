@@ -1,4 +1,4 @@
-package DesignPatterns.structural.DecoratorPattern.pizza;
+package DesignPatterns.structural.A_DecoratorPattern.pizza;
 
 public class VegOverloaded implements BasePizza{
     @Override

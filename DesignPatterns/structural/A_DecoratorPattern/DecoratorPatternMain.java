@@ -1,10 +1,10 @@
-package DesignPatterns.structural.DecoratorPattern;
+package DesignPatterns.structural.A_DecoratorPattern;
 
-import DesignPatterns.structural.DecoratorPattern.pizza.BasePizza;
-import DesignPatterns.structural.DecoratorPattern.pizza.VegOverloaded;
-import DesignPatterns.structural.DecoratorPattern.toppings.Cheese;
-import DesignPatterns.structural.DecoratorPattern.toppings.ExtraCheese;
-import DesignPatterns.structural.DecoratorPattern.toppings.Olives;
+import DesignPatterns.structural.A_DecoratorPattern.pizza.BasePizza;
+import DesignPatterns.structural.A_DecoratorPattern.pizza.VegOverloaded;
+import DesignPatterns.structural.A_DecoratorPattern.toppings.Cheese;
+import DesignPatterns.structural.A_DecoratorPattern.toppings.ExtraCheese;
+import DesignPatterns.structural.A_DecoratorPattern.toppings.Olives;
 
 public class DecoratorPatternMain {
     public static void main(String[] args) {

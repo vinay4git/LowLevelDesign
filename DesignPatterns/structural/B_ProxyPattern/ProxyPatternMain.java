@@ -1,4 +1,4 @@
-package DesignPatterns.structural.ProxyPattern;
+package DesignPatterns.structural.B_ProxyPattern;
 
 public class ProxyPatternMain {
     public static void main(String[] args) {

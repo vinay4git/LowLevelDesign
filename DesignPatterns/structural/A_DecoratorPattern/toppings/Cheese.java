@@ -1,6 +1,6 @@
-package DesignPatterns.structural.DecoratorPattern.toppings;
+package DesignPatterns.structural.A_DecoratorPattern.toppings;
 
-import DesignPatterns.structural.DecoratorPattern.pizza.BasePizza;
+import DesignPatterns.structural.A_DecoratorPattern.pizza.BasePizza;
 
 public class Cheese implements Toppings{
     private BasePizza pizza;
