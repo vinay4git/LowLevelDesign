@@ -1,6 +1,6 @@
-package DesignPatterns.creational.FactoryPattern.factory;
+package DesignPatterns.creational.A_FactoryPattern.factory;
 
-import DesignPatterns.creational.FactoryPattern.models.Button;
+import DesignPatterns.creational.A_FactoryPattern.models.Button;
 
 public abstract class RenderButton {
 

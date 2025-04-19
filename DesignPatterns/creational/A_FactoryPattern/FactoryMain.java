@@ -1,8 +1,8 @@
-package DesignPatterns.creational.FactoryPattern;
+package DesignPatterns.creational.A_FactoryPattern;
 
-import DesignPatterns.creational.FactoryPattern.factory.MacRenderButton;
-import DesignPatterns.creational.FactoryPattern.factory.RenderButton;
-import DesignPatterns.creational.FactoryPattern.factory.WindowsRenderButton;
+import DesignPatterns.creational.A_FactoryPattern.factory.MacRenderButton;
+import DesignPatterns.creational.A_FactoryPattern.factory.RenderButton;
+import DesignPatterns.creational.A_FactoryPattern.factory.WindowsRenderButton;
 
 public class FactoryMain {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package DesignPatterns.creational.AbstractFactoryPattern;
+package DesignPatterns.creational.B_AbstractFactoryPattern;
 
-import DesignPatterns.creational.AbstractFactoryPattern.factory.MacFactory;
-import DesignPatterns.creational.AbstractFactoryPattern.factory.UIFactory;
-import DesignPatterns.creational.AbstractFactoryPattern.factory.WindowsFactory;
+import DesignPatterns.creational.B_AbstractFactoryPattern.factory.MacFactory;
+import DesignPatterns.creational.B_AbstractFactoryPattern.factory.UIFactory;
+import DesignPatterns.creational.B_AbstractFactoryPattern.factory.WindowsFactory;
 
 public class AbstractFactoryMain {
     public static void main(String[] args) {

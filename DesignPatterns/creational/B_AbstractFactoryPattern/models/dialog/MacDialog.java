@@ -1,4 +1,4 @@
-package DesignPatterns.creational.AbstractFactoryPattern.models.dialog;
+package DesignPatterns.creational.B_AbstractFactoryPattern.models.dialog;
 
 public class MacDialog implements Dialog{
     @Override

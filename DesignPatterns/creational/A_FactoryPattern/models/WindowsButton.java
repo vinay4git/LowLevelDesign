@@ -1,4 +1,4 @@
-package DesignPatterns.creational.AbstractFactoryPattern.models.button;
+package DesignPatterns.creational.A_FactoryPattern.models;
 
 public class WindowsButton implements Button {
     @Override

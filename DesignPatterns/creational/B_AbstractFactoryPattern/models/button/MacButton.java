@@ -1,4 +1,4 @@
-package DesignPatterns.creational.AbstractFactoryPattern.models.button;
+package DesignPatterns.creational.B_AbstractFactoryPattern.models.button;
 
 public class MacButton implements Button {
     @Override
