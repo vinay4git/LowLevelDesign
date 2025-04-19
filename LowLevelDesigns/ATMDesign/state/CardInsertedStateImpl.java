@@ -2,7 +2,7 @@ package LowLevelDesigns.ATMDesign.state;
 
 import LowLevelDesigns.ATMDesign.objects.ATM;
 
-public class CardInsertedStateImpl extends AtmState {
+public class CardInsertedStateImpl implements AtmState {
     @Override
     public void pinVerification(ATM atm, int pin) {
      if (atm.getEnteredCard().verifyPin(pin)) {

@@ -2,7 +2,7 @@ package LowLevelDesigns.ATMDesign.state;
 
 import LowLevelDesigns.ATMDesign.objects.ATM;
 
-public class EnterAmountStateImpl extends AtmState{
+public class EnterAmountStateImpl implements AtmState{
 
     @Override
     public void enterWithDrawAmount(ATM atm, int withdrawAmount) {

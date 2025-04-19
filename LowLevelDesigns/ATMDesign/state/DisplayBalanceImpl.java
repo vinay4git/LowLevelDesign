@@ -2,7 +2,7 @@ package LowLevelDesigns.ATMDesign.state;
 
 import LowLevelDesigns.ATMDesign.objects.ATM;
 
-public class DisplayBalanceImpl extends AtmState {
+public class DisplayBalanceImpl implements AtmState {
 
     public void displayAmount(ATM atm) {
         int balance = atm.getEnteredCard().checkBalance();
