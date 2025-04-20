@@ -1,4 +1,4 @@
-package DesignPatterns.structural.F_FlyweightPattern.WordPress;
+package DesignPatterns.structural.F_FlyweightPattern.WordDoc;
 
 import java.util.HashMap;
 import java.util.Map;

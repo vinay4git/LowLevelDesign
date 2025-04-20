@@ -1,4 +1,4 @@
-package DesignPatterns.structural.F_FlyweightPattern.WordPress;
+package DesignPatterns.structural.F_FlyweightPattern.WordDoc;
 
 public class WordDocImpl implements WordDoc{
     private final char character;
