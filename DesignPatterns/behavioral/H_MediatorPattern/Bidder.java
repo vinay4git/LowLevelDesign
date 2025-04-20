@@ -1,6 +1,5 @@
 package DesignPatterns.behavioral.H_MediatorPattern;
 
-import java.util.Objects;
 
 public class Bidder implements Participant{
     AuctionManager auctionManager;
@@ -13,7 +12,7 @@ public class Bidder implements Participant{
 
     @Override
     public void receiveBidNotification(int bidAmount) {
-        System.out.println("Updated bid Amount " + bidAmount + " notify to Bidder: "  + name);
+        System.out.println("Updated bid Amount " + bidAmount + " notify to Bidder: "  + getName());
     }
 
     @Override
@@ -22,12 +21,12 @@ public class Bidder implements Participant{
     }
 
     @Override
-    public String getName(String name) {
+    public String getName() {
         return name;
     }
 
     @Override
     public void invalidBid(int bidAmount) {
-        System.out.println("Invalid bid Amount " + bidAmount + " notify to Bidder: "  + name);
+        System.out.println("Invalid bid Amount " + bidAmount + " notify to Bidder: "  + getName());
     }
 }
