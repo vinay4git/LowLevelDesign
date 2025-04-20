@@ -3,6 +3,7 @@ package DesignPatterns.behavioral.F_CommandPattern.ACRemoteController;
 import DesignPatterns.behavioral.F_CommandPattern.ACRemoteController.AC.AirConditioner;
 import DesignPatterns.behavioral.F_CommandPattern.ACRemoteController.AC.BlueStarAC;
 import DesignPatterns.behavioral.F_CommandPattern.ACRemoteController.Remote.RemoteCommandInvoker;
+import DesignPatterns.behavioral.F_CommandPattern.ACRemoteController.Remote.SetToSpecificTempRemoteCommand;
 import DesignPatterns.behavioral.F_CommandPattern.ACRemoteController.Remote.TurnOnRemoteCommand;
 
 public class ACRemoteMain {
@@ -16,5 +17,10 @@ public class ACRemoteMain {
         commandController.execute();
         commandController.undo();
 
+        System.out.println(ac.getCurrentTemp());
+        SetToSpecificTempRemoteCommand setToSpecificTempRemoteCommand = new SetToSpecificTempRemoteCommand(ac, 25);
+        commandController.setCommand(setToSpecificTempRemoteCommand);
+        commandController.execute();
+        System.out.println(ac.getCurrentTemp());
     }
 }
