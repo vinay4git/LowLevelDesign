@@ -2,11 +2,11 @@ package DesignPatterns.structural.A_DecoratorPattern.toppings;
 
 import DesignPatterns.structural.A_DecoratorPattern.pizza.BasePizza;
 
-public class ExtraCheese implements Toppings{
-    private BasePizza pizza;
+public class ExtraCheese extends Toppings{
+
 
     public ExtraCheese(BasePizza pizza) {
-        this.pizza = pizza;
+        super(pizza);
     }
 
     @Override
