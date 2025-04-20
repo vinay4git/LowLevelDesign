@@ -2,30 +2,28 @@ package DesignPatterns.behavioral.F_CommandPattern.ACRemoteController.Remote;
 
 import java.util.Stack;
 
-public class RemoteCommandInvoker extends RemoteCommand{
-    private static final RemoteCommandInvoker REMOTE_COMMAND_INVOKER = new RemoteCommandInvoker();
+public class RemoteCommandInvoker {
+    private static final RemoteCommandInvoker remoteCommandInvoker = new RemoteCommandInvoker();
     RemoteCommand remoteCommand ;
-    Stack<RemoteCommand> remoteCommands = new Stack<>();
+    Stack<RemoteCommand> remoteCommands;
 
     private RemoteCommandInvoker() {
-        super(null);
+        remoteCommands = new Stack<>();
     }
 
     public static RemoteCommandInvoker getInstance(){
-        return REMOTE_COMMAND_INVOKER;
+        return remoteCommandInvoker;
     }
 
     public  void setCommand(RemoteCommand remoteCommand) {
         this.remoteCommand = remoteCommand;
     }
 
-    @Override
     public  void execute(){
         remoteCommand.execute();
         remoteCommands.add(remoteCommand);
     }
 
-    @Override
     public  void undo() {
         if (!remoteCommands.isEmpty()) {
             RemoteCommand pop = remoteCommands.pop();
