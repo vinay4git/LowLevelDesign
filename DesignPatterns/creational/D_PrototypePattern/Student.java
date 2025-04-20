@@ -1,6 +1,6 @@
 package DesignPatterns.creational.D_PrototypePattern;
 
-public class Student implements Cloneable{
+public class Student implements Prototype {
     String name;
     int id;
     int age;
