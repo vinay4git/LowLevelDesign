@@ -13,7 +13,10 @@ public class VisitorMain {
 
         PricingVisitor pricingVisitor = new PricingVisitor();
 
-
         singleRoom.accept(pricingVisitor);
+        System.out.println(singleRoom.getPrice());
+
+        deluxeRoom.accept(pricingVisitor);
+        System.out.println(deluxeRoom.getPrice());
     }
 }
