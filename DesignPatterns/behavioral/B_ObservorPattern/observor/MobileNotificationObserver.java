@@ -15,6 +15,6 @@ public class MobileNotificationObserver implements NotificationAlertObserver{
 
     @Override
     public void update() {
-        System.out.println("Product is availalbe mobileNbr" + mobileNbr);
+        System.out.println("Item is availalbe mobileNbr" + mobileNbr);
     }
 }
