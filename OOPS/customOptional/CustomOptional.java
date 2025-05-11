@@ -8,7 +8,7 @@ public class CustomOptional <T> {
     private final T value;
 
     public static final CustomOptional<?> EMPTY = new CustomOptional<>(null);
-    public CustomOptional(T value) {
+    private CustomOptional(T value) {
         this.value = value;
     }
 

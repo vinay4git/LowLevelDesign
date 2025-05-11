@@ -5,6 +5,7 @@ public abstract class Product {
     String name;
     ProductType productType;
     Integer price;
+    public abstract int getPrice();
 
     public Product(){}
     public Product(String name, ProductType productType, Integer price) {
@@ -29,8 +30,6 @@ public abstract class Product {
     public void setProductType(ProductType productType) {
         this.productType = productType;
     }
-
-    public abstract int getPrice();
 
     public void setPrice(Integer price) {
         this.price = price;

@@ -20,7 +20,6 @@ public class ShoppingCart {
     public int netAmount() {
         int netPrice = 0;
         for(Product p : items) {
-
             netPrice += new ProductTypePercentage(new NPercentOffCoupon(p, 10), 10, ProductType.ELECTRONIC).getPrice();
         }
         return netPrice;
