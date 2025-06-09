@@ -1,6 +1,7 @@
 package OOPS.customOptional;
 
 import java.util.Objects;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
@@ -48,5 +49,12 @@ public class CustomOptional <T> {
             return value;
         }
         throw supplier.get();
+    }
+
+    public CustomOptional<? extends T> or (Supplier<? extends  CustomOptional<? extends T>> supplier) {
+        if (!this.isEmpty()) {
+            return this;
+        }
+        return supplier.get();
     }
 }
