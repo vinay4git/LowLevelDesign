@@ -2,7 +2,7 @@ package DesignPatterns.behavioral.C_ChainOfResponsibility.LogProcessor.oneWay;
 
 public class InfoLogger extends LoggerProcessor {
     public InfoLogger(LoggerProcessor loggerProcessor) {
-        super(loggerProcessor);
+        nextLoggerProcessor = loggerProcessor;
     }
 
     @Override
