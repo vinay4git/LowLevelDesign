@@ -1,8 +1,8 @@
 package LowLevelDesigns.splitwise.service.split;
 
-import splitwise.model.Expense;
-import splitwise.model.Split;
-import splitwise.model.User;
+import LowLevelDesigns.splitwise.model.Expense;
+import LowLevelDesigns.splitwise.model.Split;
+import LowLevelDesigns.splitwise.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

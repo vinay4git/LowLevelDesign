@@ -1,10 +1,10 @@
 package LowLevelDesigns.splitwise.service;
 
-import splitwise.model.*;
-import splitwise.service.split.EqualSplitService;
-import splitwise.service.split.ExactAmountSplitService;
-import splitwise.service.split.ShareSplitSplitService;
-import splitwise.service.split.SplitService;
+import LowLevelDesigns.splitwise.model.*;
+import LowLevelDesigns.splitwise.service.split.EqualSplitService;
+import LowLevelDesigns.splitwise.service.split.ExactAmountSplitService;
+import LowLevelDesigns.splitwise.service.split.ShareSplitSplitService;
+import LowLevelDesigns.splitwise.service.split.SplitService;
 
 import java.util.List;
 

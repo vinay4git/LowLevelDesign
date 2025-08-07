@@ -1,10 +1,10 @@
 package LowLevelDesigns.splitwise;
 
-import splitwise.model.SplitType;
-import splitwise.model.User;
-import splitwise.service.BalanceService;
-import splitwise.service.ExpenseService;
-import splitwise.service.UserService;
+import LowLevelDesigns.splitwise.model.SplitType;
+import LowLevelDesigns.splitwise.model.User;
+import LowLevelDesigns.splitwise.service.BalanceService;
+import LowLevelDesigns.splitwise.service.ExpenseService;
+import LowLevelDesigns.splitwise.service.UserService;
 
 import java.util.HashMap;
 import java.util.List;

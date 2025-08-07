@@ -1,6 +1,6 @@
 package LowLevelDesigns.splitwise.service.split;
 
-import splitwise.model.Split;
+import LowLevelDesigns.splitwise.model.Split;
 
 import java.util.List;
 

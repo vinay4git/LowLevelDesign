@@ -1,8 +1,8 @@
 package LowLevelDesigns.splitwise.service;
 
-import splitwise.model.Balance;
-import splitwise.model.Split;
-import splitwise.model.User;
+import LowLevelDesigns.splitwise.model.Balance;
+import LowLevelDesigns.splitwise.model.Split;
+import LowLevelDesigns.splitwise.model.User;
 
 import java.util.HashMap;
 import java.util.HashSet;

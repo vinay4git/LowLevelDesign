@@ -1,7 +1,7 @@
 package LowLevelDesigns.splitwise.service;
 
-import splitwise.model.Balance;
-import splitwise.model.User;
+import LowLevelDesigns.splitwise.model.Balance;
+import LowLevelDesigns.splitwise.model.User;
 
 public class UserService {
     BalanceService balanceService;
